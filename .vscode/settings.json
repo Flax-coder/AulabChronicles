@@ -1,7 +1,32 @@
 {
     "workbench.colorCustomizations": {
-        "activityBar.background": "#043602",
-        "titleBar.activeBackground": "#064C02",
-        "titleBar.activeForeground": "#ECFEEC"
-    }
+        "activityBar.background": "#15158E",
+        "titleBar.activeBackground": "#1E1EC7",
+        "titleBar.activeForeground": "#FCFCFF",
+        "titleBar.inactiveBackground": "#15158E",
+        "titleBar.inactiveForeground": "#FCFCFF",
+        "statusBar.background": "#15158E",
+        "statusBar.foreground": "#FCFCFF",
+        "statusBar.debuggingBackground": "#15158E",
+        "statusBar.debuggingForeground": "#FCFCFF",
+        "statusBar.noFolderBackground": "#15158E",
+        "statusBar.noFolderForeground": "#FCFCFF"
+    },
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "aulabchronicles",
+            "database": "aulabchronicles",
+            "username": "root",
+            "password": "root"
+        }
+    ]
 }
