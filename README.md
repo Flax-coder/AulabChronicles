@@ -1,4 +1,10 @@
-DevNotes
+# DevNotes
+
+![Java](https://img.shields.io/badge/Java-21-red)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-4-brightgreen)
+![Angular](https://img.shields.io/badge/Angular-17-red)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 Full-Stack editorial platform built with Spring Boot and Angular.
 
