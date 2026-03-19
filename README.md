@@ -1,4 +1,4 @@
-# DevNotes
+# 🚀 DevNotes
 
 ![Java](https://img.shields.io/badge/Java-21-red)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-4-brightgreen)
@@ -6,111 +6,133 @@
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+A role-based publishing platform built with **Spring Boot** and **Angular**, implementing secure authentication, article workflow and object storage.
+
 ---
 
-A role-based publishing platform built with Spring Boot and Angular, implementing secure authentication, article workflow and object storage.
+## 🧠 Overview
 
-🚀 Overview
+DevNotes is a full stack publishing platform that allows users to create, review and manage technical articles.
 
-DevNotes is a role-based publishing platform that allows users to create, review and manage technical articles.
+---
 
-The project implements secure authentication, role-based authorization, article workflow management and external object storage.
+## 📸 Screenshots
 
-## 🛠 Tech Stack
+### 🎯 Platform Preview
+<p align="center">
+  <img src="./screenshots/cover.png" width="100%" />
+</p>
 
-- Java 21
-- Spring Boot 4
-- Spring Security + JWT
-- Angular 17
-- MySQL
-- Docker + MinIO
+### 🖥️ Application Views
+<p align="center">
+  <img src="./screenshots/home.png" width="45%" />
+  <img src="./screenshots/admin.png" width="45%" />
+</p>
 
-🏗 Architecture
+<p align="center">
+  <img src="./screenshots/create.png" width="45%" />
+  <img src="./screenshots/my-articles.png" width="45%" />
+</p>
 
-Backend: Spring Boot 4
+---
 
-Security: Spring Security + JWT
+## 🧩 Tech Stack
 
-Frontend: Angular (Standalone SPA)
+- Java 21  
+- Spring Boot  
+- Spring Security + JWT  
+- Angular  
+- MySQL  
+- Docker + MinIO  
 
-Database: MySQL
+---
 
-Storage: MinIO (S3-compatible)
+## 🏗️ Architecture
 
-Containerization: Docker Compose
+- Backend: Spring Boot REST API  
+- Security: JWT Authentication  
+- Frontend: Angular SPA  
+- Database: MySQL  
+- Storage: MinIO (S3-compatible)  
+- Containerization: Docker Compose  
 
-The architecture follows separation between API and client application.
+---
 
-🔐 Authentication & Authorization
+## 🔐 Authentication & Authorization
 
-JWT-based authentication
+- JWT-based authentication  
+- Role-based access control  
 
-Custom authentication filter
+### Roles:
+- Admin  
+- Writer  
+- Revisor  
+- User  
 
-Role-based access control
+---
 
-Roles implemented:
+## ✨ Main Features
 
-Admin
+- Article creation and editing  
+- Article review workflow  
+- Role management  
+- Image upload  
+- Category management  
+- Admin dashboard  
+- Secure REST API  
 
-Writer
+---
 
-Revisor
+## 📁 Project Structure
 
-User
+```text
+devnotes-api    -> Spring Boot backend
+devnotes-web    -> Angular frontend
+screenshots     -> README images
+```
 
-📦 Main Features
+---
 
-Article creation and editing
+## ▶️ Running the Project
 
-Article review workflow
+### Backend
 
-Role management system
-
-Image upload to object storage
-
-Category management
-
-Admin dashboard
-
-Secure REST API
-
-🖥 Project Structure
-
-devnotes-api     → Spring Boot backend
-devnotes-web     → Angular frontend
-
-⚙️ Running the Project
-
-Backend
+```bash
 cd devnotes-api
 mvn spring-boot:run
-Frontend
+```
+
+### Frontend
+
+```bash
 cd devnotes-web
 npm install
 ng serve
-🧠 Learning Focus
+```
+
+---
+
+## 🎯 Learning Focus
 
 This project focuses on:
 
-Secure REST API design
+- Secure REST API design  
+- Clean architecture principles  
+- Role-based authorization  
+- DTO mapping  
+- Separation of concerns  
+- State management in SPA  
 
-Clean architecture principles
+---
 
-Role-based authorization
+## 👤 Author
 
-DTO mapping
+**Flavio Trettenero**  
+Full-Stack Developer  
+Java • Spring Boot • Angular  
 
-Separation of concerns
+---
 
-State management in SPA
-
-📌 Author
-
-Flavio Trettenero
-Full-Stack Developer
-Java • Spring Boot • Angular
-
-📄 License
+## 📄 License
 
 MIT License
