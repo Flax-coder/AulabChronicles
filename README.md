@@ -18,12 +18,8 @@ DevNotes is a full stack publishing platform that allows users to create, review
 
 ## 📸 Screenshots
 
-### 🎯 Platform Preview
-<p align="center">
-  <img src="./screenshots/cover.png" width="100%" />
-</p>
+### 🌞 Light Mode
 
-### 🖥️ Application Views
 <p align="center">
   <img src="./screenshots/home.png" width="45%" />
   <img src="./screenshots/admin.png" width="45%" />
@@ -32,6 +28,29 @@ DevNotes is a full stack publishing platform that allows users to create, review
 <p align="center">
   <img src="./screenshots/create.png" width="45%" />
   <img src="./screenshots/my-articles.png" width="45%" />
+</p>
+
+---
+
+### 🌙 Dark Mode
+
+<p align="center">
+  <img src="./screenshots/dhome.png" width="45%" />
+  <img src="./screenshots/dadmin.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="./screenshots/dcreate.png" width="45%" />
+  <img src="./screenshots/dmy-articles.png" width="45%" />
+</p>
+
+---
+
+### 🖼️ Cover
+
+<p align="center">
+  <img src="./screenshots/cover.png" width="49%" />
+  <img src="./screenshots/dcover.png" width="49%" />
 </p>
 
 ---
